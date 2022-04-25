@@ -14,7 +14,8 @@ for(const pic in imgArray)
     const newImage = document.createElement('img');
     newImage.setAttribute('src', imgArray[pic]);
     thumbBar.appendChild(newImage);
-    newImage.addEventListener('click', () => {
+    newImage.addEventListener('click', () => 
+    {
         displayedImage.setAttribute('src', newImage.getAttribute('src'));
     });
 }

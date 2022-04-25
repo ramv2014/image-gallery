@@ -10,7 +10,7 @@ const imgArray = ["images/pic1.jpg", "images/pic2.jpg", "images/pic3.jpg", "imag
 /* Looping through images */
 for(const pic in imgArray)
 {
-    console.log(imgArray[pic]);
+    //console.log(imgArray[pic]);
     const newImage = document.createElement('img');
     newImage.setAttribute('src', imgArray[pic]);
     thumbBar.appendChild(newImage);
